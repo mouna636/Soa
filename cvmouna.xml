@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE curriculum_vitae [
+    <!ELEMENT curriculum_vitae (informations_personnelles, formation, experience_professionnelle, competences)>
+    <!ELEMENT informations_personnelles (nom, prenom, age, adresse, telephone, email)>
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT prenom (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT adresse (#PCDATA)>
+    <!ELEMENT telephone (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+
+    <!ELEMENT formation (diplome+)>
+    <!ELEMENT diplome (nom_diplome, etablissement, annee)>
+    <!ELEMENT nom_diplome (#PCDATA)>
+    <!ELEMENT etablissement (#PCDATA)>
+    <!ELEMENT annee (#PCDATA)>
+
+    <!ELEMENT experience_professionnelle (poste+)>
+    <!ELEMENT poste (titre, entreprise, annee_debut, annee_fin, description)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT entreprise (#PCDATA)>
+    <!ELEMENT annee_debut (#PCDATA)>
+    <!ELEMENT annee_fin (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT competences (competence+)>
+    <!ELEMENT competence (#PCDATA)>
+
+    <!ELEMENT photo (#PCDATA)>
+]>
+<curriculum_vitae>
+    <informations_personnelles>
+        <nom>Bedoui</nom>
+        <prenom>Mouna</prenom>
+        <age>24</age>
+        <adresse>Douar Hicher, Manouba</adresse>
+        <telephone>26903625</telephone>
+        <email>mouna.bedoui@example.com</email>
+       
+    </informations_personnelles>
+    <formation>
+        <diplome>
+            <nom_diplome>Baccalauréat en Informatique</nom_diplome>
+            <etablissement>Hasan hosni abd al wahab</etablissement>
+            <annee>2017</annee>
+        </diplome>
+        <diplome>
+            <nom_diplome>Lisence appliqué en informatique</nom_diplome>
+            <etablissement>Institut Supérieur des Études Technologiques de Bizerte</etablissement>
+            <annee>2021</annee>
+        </diplome>
+        <diplome>
+            <nom_diplome>Master en Data Analytics and Business Intelligence</nom_diplome>
+            <etablissement>Institut Supérieur des Études Technologiques de Bizerte</etablissement>
+            <annee>2023</annee>
+        </diplome>
+        <diplome>
+            <nom_diplome>Cycle Ingénieur en Développement Mobile, Web et Multimédia</nom_diplome>
+            <etablissement>Tekup university</etablissement>
+            <annee>2025</annee>
+        </diplome>
+    </formation>
+    <experience_professionnelle>
+    
+        <poste>
+            <titre>Stage d'initialtion</titre>
+            <entreprise>Société d'éléctricité et gaz </entreprise>
+            <annee_debut>2019</annee_debut>
+            <annee_fin>2019</annee_fin>
+            <description>découvrir l'environnemnt de travail</description>
+        </poste>
+        <poste>
+            <titre>Stage de perffectionnemnt</titre>
+            <entreprise>Pro tuch</entreprise>
+            <annee_debut>2020</annee_debut>
+            <annee_fin>2020</annee_fin>
+            <description>Developpement d'une application web de gestion des employés</description>
+        </poste>
+        <poste>
+            <titre>Stage Pfe</titre>
+            <entreprise>Pro tuch</entreprise>
+            <annee_debut>2021</annee_debut>
+            <annee_fin>2021</annee_fin>
+            <description>Developpement d'une application web de gestion des projets publicitaires</description>
+        </poste>
+    </experience_professionnelle>
+    <competences>
+        <competence>HTML</competence>
+        <competence>CSS</competence>
+        <competence>JavaScript</competence>
+        <competence>Python</competence>
+        <competence>SQL</competence>
+        <competence>PHP</competence>
+        <competence>Angular</competence>
+        <competence>Responsive Web Design</competence>
+        <competence>Data Analysis</competence>
+        <competence>Data Visualization</competence>
+        <competence>Machine Learning</competence>
+        <competence>Database Management (e.g., MySQL, PostgreSQL)</competence>
+        <competence>Data Mining</competence>
+        <competence>Statistical Analysis</competence>
+        <competence>Business Intelligence Tools (e.g., Tableau, Power BI)</competence>
+    </competences>
+    
+</curriculum_vitae>
